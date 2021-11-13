@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login1.css" />
+    <title>Survey Form</title>
+    <body>
+        <p></p>
+      <form>
+        <label>Email-id :</label>
+        <input
+          type="text"
+          placeholder="Enter Email-id"
+          pattern=".+@.+\..+"
+          title="enter valid email format"
+          required
+        /><br /><br />
+        <label>Password :</label>
+        <input
+          type="password"
+          placeholder="Enter valid Password"
+          pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}"
+          title="enter atleast 8 character"
+          required
+        /><br /><br />
+
+        <button type="submit">Login</button>
+      </form>
+    </body>
+  </head>
+</html>

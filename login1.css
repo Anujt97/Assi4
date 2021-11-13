@@ -1,0 +1,20 @@
+body{
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #efefef;
+}
+input{
+    font-size: 40px;
+    opacity: 0.4;
+    border-radius: 30px;
+}
+button{
+    font-size: 30px;
+    opacity: 0.7;
+    border-radius: 25px;
+    background-color:rgb(221, 250, 162);
+}
+label{
+    color: rgb(245, 91, 77);
+}
